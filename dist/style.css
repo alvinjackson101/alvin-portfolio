@@ -244,7 +244,7 @@ h3 {
 }
 
 .mx-width-600 {
-  max-width: 600px !important;
+  max-width: 500px !important;
 }
 
 .mx-width-400 {
@@ -287,17 +287,6 @@ h3 {
   color: #3c4043;
 }
 
-.text-yellow {
-  color: #f5d76f;
-}
-
-.text-light-yellow {
-  color: #fff1c1 !important;
-}
-
-.green-txt {
-  color: #4c915a;
-}
 
 .bg-light-grey {
   background-color: #fbfbfb;
@@ -319,8 +308,13 @@ h3 {
   background: #000 !important;
 }
 
-.bg-green {
-  background: #4c915a;
+.bg-orange {
+  background: #f5792d;
+  /*background-image: url("/images/aboutme-bg.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative; */
 }
 
 .bg-blue {
