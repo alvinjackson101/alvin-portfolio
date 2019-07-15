@@ -287,7 +287,6 @@ h3 {
   color: #3c4043;
 }
 
-
 .bg-light-grey {
   background-color: #fbfbfb;
 }
@@ -894,7 +893,6 @@ header .navbar-nav .nav-item:first-child {
 }
 
 .section2:before {
-  background: url("/images/butter-fly.png");
   background-repeat: no-repeat;
   min-height: 200px;
   transform: rotate(-30deg);
@@ -915,7 +913,6 @@ header .navbar-nav .nav-item:first-child {
 }
 
 .section2:after {
-  background: url("/images/butter-fly.png");
   background-repeat: no-repeat;
   min-height: 156px;
   transform: rotate(30deg);
