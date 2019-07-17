@@ -1,606 +1,741 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-GB">
+  <head>
+    <title>Alvin Jackson</title>
+    <link rel="shortcut icon" href="images/a-favicon.png" />
+    <script src="https://kit.fontawesome.com/82721b7592.js"></script>
+    <script src="https://kit.fontawesome.com/0a475b4102.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="dist/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="dist/bundle.js"></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
 
-<head>
-   <title>Alvin Jackson</title>
-   <link rel="shortcut icon" href="images/a-favicon.png">
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" type="text/css" href="dist/style.css" />
-   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700&display=swap" rel="stylesheet">
-   <script src="dist/bundle.js"></script>
-   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   <link rel="stylesheet" href="css/owl.carousel.min.css">
-   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
 
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-   <script src="js/jquery.min.js"></script>
-   <script src="js/owl.carousel.js"></script>
-</head>
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+  </head>
 
-<body class="root">
-   <!--header// -->
-   <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="https://alvinjackson.com"><img src="./images/alvin-logo-web.png" />
-          <button class="navbar-toggler custom-toggler border-0" type="button" data-toggle="collapse"
-              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item current-item ">
-                      <a class="nav-link" href="https://alvinjackson.com">Overview </a>
-                  </li>
-                  <li class="nav-item ">
-                      <a class="nav-link" href="https://alvinjackson.com/service">Portfolio</a>
-                  </li>
+  <body class="root">
+    <!--header// -->
+    <header class="header">
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-light bg-white border-bottom"
+      >
+        <a class="navbar-brand" href="https://alvinjackson.com">
+          <img
+            src="./images/alvin-icon.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="alvin-jackson"
+          />
+          Alvin Jackson
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://alvinjackson.com/service"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://alvinjackson.com/contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
 
-                  <li class="nav-item ">
-                      <a class="nav-link" href="https://alvinjackson.com/contact">Contact</a>
-                  </li>
-              </ul>
-              <div class="header-btn">
-                  <button class="btn font-weight-400 rounded-0 mx-width-140  my-2 my-sm-0"
-                      type="submit"><a href="./images/alvin-jackson-resume.pdf" download>Download Resume</a></button>
-              </div>
-
-
-          </div>
+          <a
+            href="https://alvinjackson.com/service"
+            class="btn font-weight-500 p-0 btn bg-transparent"
+            ><i class="fal fa-file-download"></i>
+            Download Resume
+          </a>
+        </div>
       </nav>
-  </header>
-   <!--header end -->
-   <main class="page-body">
+    </header>
+    <!--header end -->
+    <main class="page-body">
       <div class="section  ContentContainer">
-         <div class="sec-spacing bg-white">
-            <div class="sec__clip">
-               <div class="section-tech">
-                  <div class="container">
-                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-md-12 col-lg-12">
-                           <div class="section-left">
-                              <div class="section-header text-center btm ">
-                                 <img class="m-btm-50 mx-width-100" src="images/green-butterfly.png" />
-                                 <h1>I love what I do.</h1>
-                                 <p>Many skills I have learned and much more to come.</p>
+        <div class="sec-spacing bg-white">
+          <div class="sec__clip">
+            <div class="section-tech">
+              <div class="container">
+                <div
+                  class="row d-flex align-items-center justify-content-center"
+                >
+                  <div class="col-md-12 col-lg-12">
+                    <div class="section-left">
+                      <div class="section-header text-center btm">
+                        <h1>
+                          I <class class="fal fa-heart"></class> what I do.
+                        </h1>
+                      </div>
+                      <div class="section-body">
+                        <div
+                          class="row  d-flex align-items-center justify-content-center "
+                        >
+                          <div class="col-md-10">
+                            <div
+                              class="row d-flex align-items-center justify-content-center"
+                            >
+                              <div class="col-md-6 col-lg-4">
+                                <div
+                                  class="service-cards card  border-0 text-center"
+                                >
+                                  <i class="fa far fa-grin-alt"></i>
+                                  <div class="card-body p-0">
+                                    <h4 class="card-title ">User Experience Design</h4>
+                                    <p class="card-text">
+                                      6+ years creating adabtable sticky user experiences for applications
+                                    </p>
+                                  </div>
+                                </div>
                               </div>
-                              <div class="section-body">
-                                 <div class="row  d-flex align-items-center justify-content-center ">
-                                    <div class="col-md-10">
-                                       <div class="row d-flex align-items-center justify-content-center">
-                                          <div class="col-md-6 col-lg-4">
-                                             <div class="service-cards card  border-0 text-center">
-                                                <i class="fa fa-mobile"></i>
-                                                <div class="card-body p-0">
-                                                   <h4 class="card-title ">User Experience</h4>
-                                                   <p class="card-text">From researching to actual product
-                                                   </p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="col-md-6 col-lg-4">
-                                             <div class="service-cards card  text-center  border-0">
-                                                <i class="fa fa-paint-brush"></i>
-                                                <div class="card-body p-0">
-                                                   <h4 class="card-title">HTML & CSS</h4>
-                                                   <p class="card-text">customer donot want to figure it out
-                                                   </p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="col-md-6 col-lg-4">
-                                             <div class=" service-cards card  text-center  border-0">
-                                                <i class="fa fa-laptop fx-3x"></i>
-                                                <div class="card-body p-0">
-                                                   <h4 class="card-title ">Project Management</h4>
-                                                   <p class="card-text"> 5+ years of creating UI
-                                                   </p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="col-md-6 col-lg-4">
-                                             <div class="service-cards card  text-center  border-0">
-                                                <i class="fa fa-print"></i>
-                                                <div class="card-body p-0">
-                                                   <h4 class="card-title ">Javascript</h4>
-                                                   <p class="card-text">7+ years of creating lasting brands
-                                                   </p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="col-md-6 col-lg-4">
-                                             <div class="service-cards card  text-center  border-0">
-                                                <i class="fa fa-gamepad"></i>
-                                                <div class="card-body p-0">
-                                                   <h4 class="card-title ">Technologies</h4>
-                                                   <p class="card-text">Invisionapp, Basalmiq, Adobe Suites, Trello, Jira, Flowmapp, and more...
-                                                   </p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
+                              <div class="col-md-6 col-lg-4">
+                                <div
+                                  class="service-cards card  text-center  border-0"
+                                >
+                                  <i class="fa  fas fa-laptop-code"></i>
+                                  <div class="card-body p-0">
+                                    <h4 class="card-title">HTML & CSS</h4>
+                                    <p class="card-text">
+                                      3+ years of building responsive UI for desktop and mobile
+                                    </p>
+                                  </div>
+                                </div>
                               </div>
-                           </div>
+                              <div class="col-md-6 col-lg-4">
+                                <div
+                                  class=" service-cards card  text-center  border-0"
+                                >
+                                  <i class="fa  fas fa-users"></i>
+                                  <div class="card-body p-0">
+                                    <h4 class="card-title">
+                                      Project Management
+                                    </h4>
+                                    <p class="card-text">
+                                      5+ years leading teams and building
+                                      applications
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                           
+                              <div class="col-md-6 col-lg-4">
+                                <div
+                                  class="service-cards card  text-center  border-0"
+                                >
+                                  <i class="fa fa-print"></i>
+                                  <div class="card-body p-0">
+                                    <h4 class="card-title ">Javascript</h4>
+                                    <p class="card-text">
+                                      1 year of creating functional applications via React and Jquery
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-lg-4">
+                                <div
+                                  class="service-cards card  text-center  border-0"
+                                >
+                                  <i class="fa fa-gamepad"></i>
+                                  <div class="card-body p-0">
+                                    <h4 class="card-title ">Technologies</h4>
+                                    <p class="card-text">
+                                      Invisionapp, Basalmiq, Adobe Suites,
+                                      Trello, Jira, Flowmapp, and more...
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                     </div>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
       <!--section2-->
       <div class="section  ContentContainer">
-         <div class="sec-spacing bg-brown service-section2">
-            <div class="sec__clip">
-               <div class="section-tech">
-                  <div class="container">
-                     <div class="row d-flex align-items-center pos-rel">
-                        <div class="col-sm-12 col-md-5 col-lg-5">
-                           <div class="section-left">
-                              <div class="section-header">
-                                 <div class="service-left-img d-flex align-items-center m-btm-50">
-                                    <img src="images/service-icon2.png" />
-                                    <h2 class="text-white ml-3">Live StockLoader</h2>
-                                 </div>
-                                 <p class="text-white"> Many shippers, dispatchers, and carries, in the livestock
-                                    industry have lots of pain points that needs a solution
-                                    .This app is focused on making the livestock shipping industry more user friendly
-                                    from laoding livestocks in trailers to safety hauling them to be desired
-                                    destination.
-                                 </p>
-                              </div>
-                              <div class="section-footer">
-                                 <ul class="service-links">
-                                    <li class="d-inline"><a class="text-white" href="#">App Development
-                                          <span>|</span></a>
-                                    </li>
-                                    <li class="d-inline"><a class="text-white" href="#">Branding <span>|</span></a></li>
-                                    <li class="d-inline"><a class="text-white" href="#"> Design & Ux <span>|</span></a>
-                                    </li>
-                                    <li class="d-inline"><a class="text-white" href="#">Web Development </a></li>
-                                 </ul>
-                              </div>
-                           </div>
+        <div class="sec-spacing bg-brown service-section2">
+          <div class="sec__clip">
+            <div class="section-tech">
+              <div class="container">
+                <div class="row d-flex align-items-center pos-rel">
+                  <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="section-left">
+                      <div class="section-header">
+                        <div
+                          class="service-left-img d-flex align-items-center m-btm-50"
+                        >
+                          <img src="images/service-icon2.png" />
+                          <h2 class="text-white ml-3">Live StockLoader</h2>
                         </div>
-                        <div class="col-sm-12 col-md-7 col-lg-7">
-                           <div class="section-right">
-                              <img class="
-                     mx-width-250" src="images/section2-phone.gif" />
-                           </div>
-                        </div>
-                     </div>
+                        <p class="text-white">
+                          Many shippers, dispatchers, and carries, in the
+                          livestock industry have lots of pain points that needs
+                          a solution .This app is focused on making the
+                          livestock shipping industry more user friendly from
+                          laoding livestocks in trailers to safety hauling them
+                          to be desired destination.
+                        </p>
+                      </div>
+                      <div class="section-footer">
+                        <ul class="service-links">
+                          <li class="d-inline">
+                            <a class="text-white" href="#"
+                              >App Development <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-white" href="#"
+                              >Branding <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-white" href="#">
+                              Design & Ux <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-white" href="#">Web Development </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                  <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="section-right">
+                      <img
+                        class="
+                     mx-width-250"
+                        src="images/section2-phone.gif"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
       <!--section3-->
       <div class="section service-section3  ContentContainer">
-         <div class="sec-spacing bg-white">
-            <div class="sec__clip">
-               <div class="section-tech">
-                  <div class="container">
-                     <div class="row d-flex align-items-center">
-                        <div class="col-sm-12 col-md-5 col-lg-5">
-                           <div class="section-left">
-                              <div class="section-header">
-                                 <h1>ShoeBeNew</h1>
-                                 <p>Problem,people donot have time to drop shoes off to get repaired,sometime it may
-                                    take
-                                    them weeks to do so.This app have a solution to this problem
-                                 </p>
-                              </div>
-                              <div class="section-footer">
-                                 <ul class="service-links">
-                                    <li class="d-inline"><a class="text-dark font-weight-500" href="#">App Development
-                                          <span>|</span></a>
-                                    </li>
-                                    <li class="d-inline"><a class="text-dark font-weight-500" href="#">Branding
-                                          <span>|</span></a>
-                                    </li>
-                                    <li class="d-inline"><a class="text-dark font-weight-500" href="#"> Design & Ux
-                                          <span>|</span></a>
-                                    </li>
-                                    <li class="d-inline"><a class="text-dark font-weight-500" href="#">Web Development
-                                       </a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-sm-12 col-md-7 col-lg-7">
-                           <div class="section-right">
-                              <img class="mx-width-250" src="images/section2-phone.gif" />
-                           </div>
-                        </div>
-                     </div>
+        <div class="sec-spacing bg-white">
+          <div class="sec__clip">
+            <div class="section-tech">
+              <div class="container">
+                <div class="row d-flex align-items-center">
+                  <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="section-left">
+                      <div class="section-header">
+                        <h1>ShoeBeNew</h1>
+                        <p>
+                          Problem,people donot have time to drop shoes off to
+                          get repaired,sometime it may take them weeks to do
+                          so.This app have a solution to this problem
+                        </p>
+                      </div>
+                      <div class="section-footer">
+                        <ul class="service-links">
+                          <li class="d-inline">
+                            <a class="text-dark font-weight-500" href="#"
+                              >App Development <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-dark font-weight-500" href="#"
+                              >Branding <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-dark font-weight-500" href="#">
+                              Design & Ux <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-dark font-weight-500" href="#"
+                              >Web Development
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                  <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="section-right">
+                      <img
+                        class="mx-width-250"
+                        src="images/section2-phone.gif"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
       <!--section4-->
 
       <div class="section    ContentContainer">
-         <div class="sec-spacing bg-blue service-section4 ">
-            <div class="sec__clip">
-               <div class="section-tech">
-                  <div class="container">
-                     <div class="row d-flex align-items-center pos-rel">
-                        <div class="col-sm-12 col-md-5 col-lg-5">
-                           <div class="section-left service-icon-cesor">
-                              <div class="section-header">
-
-                                 <div class="service-left-img d-flex align-items-center m-btm-50">
-                                    <img class="mx-width-100" src="images/debo.png" />
-                                    <h2 class="text-white ml-3">DebonaireU</h2>
-                                 </div>
-                                 <p class="text-white">When getting a hair cut we hate waiting. This app has a solution
-                                    where you donot want to wait and not its's not the old appointment solutions
-                                 </p>
-                              </div>
-                              <div class="section-footer">
-                                 <ul class="service-links">
-                                    <li class="d-inline"><a class="text-white" href="#">App Development
-                                          <span>|</span></a>
-                                    </li>
-                                    <li class="d-inline"><a class="text-white" href="#">Branding <span>|</span></a></li>
-                                    <li class="d-inline"><a class="text-white" href="#"> Design & Ux </a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-
+        <div class="sec-spacing bg-blue service-section4 ">
+          <div class="sec__clip">
+            <div class="section-tech">
+              <div class="container">
+                <div class="row d-flex align-items-center pos-rel">
+                  <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="section-left service-icon-cesor">
+                      <div class="section-header">
+                        <div
+                          class="service-left-img d-flex align-items-center m-btm-50"
+                        >
+                          <img class="mx-width-100" src="images/debo.png" />
+                          <h2 class="text-white ml-3">DebonaireU</h2>
                         </div>
-                        <div class="col-sm-12 col-md-7 col-lg-7">
-                           <div class="section-right">
-                              <img class="mx-width-250" src="images/section2-phone.gif" />
-                           </div>
-                        </div>
-                     </div>
+                        <p class="text-white">
+                          When getting a hair cut we hate waiting. This app has
+                          a solution where you donot want to wait and not its's
+                          not the old appointment solutions
+                        </p>
+                      </div>
+                      <div class="section-footer">
+                        <ul class="service-links">
+                          <li class="d-inline">
+                            <a class="text-white" href="#"
+                              >App Development <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-white" href="#"
+                              >Branding <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-white" href="#"> Design & Ux </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                  <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="section-right">
+                      <img
+                        class="mx-width-250"
+                        src="images/section2-phone.gif"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
-
-
+          </div>
+        </div>
       </div>
       <!--section5-->
       <div class="section    ContentContainer">
-         <div class="sec-spacing bg-violet  service-section5">
-            <div class="sec__clip">
-               <div class="section-tech">
-                  <div class="container">
-                     <div class="row d-flex align-items-center pos-rel">
-                        <div class="col-sm-12 col-md-5 col-lg-5">
-                           <div class="section-left">
-                              <div class="section-header">
-                                 <div class="service-left-img d-flex align-items-center m-btm-50">
-                                    <img class="mx-width-100" src="images/mojiclip .png" />
-                                    <h2 class="text-yellow font-weight-500 ml-3">Mojiclip</h2>
-                                 </div>
-                                 <p class="text-light-yellow">Sometimes you see trends and you create a fun solution for
-                                    them,Mojiclip was a fun idea from day one.
-                                    All you do is join,pick a video,snap your headshot,and watch video or share it.
-                                 </p>
-                              </div>
-                              <div class="section-footer">
-                                 <ul class="service-links">
-                                    <li class="d-inline"><a class="text-light-yellow" href="#">App Development
-                                          <span>|</span></a>
-                                    </li>
-                                    <li class="d-inline"><a class="text-light-yellow" href="#">Branding
-                                          <span>|</span></a>
-                                    </li>
-                                    <li class="d-inline"><a class="text-light-yellow" href="#"> Design & Ux </a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
+        <div class="sec-spacing bg-violet  service-section5">
+          <div class="sec__clip">
+            <div class="section-tech">
+              <div class="container">
+                <div class="row d-flex align-items-center pos-rel">
+                  <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="section-left">
+                      <div class="section-header">
+                        <div
+                          class="service-left-img d-flex align-items-center m-btm-50"
+                        >
+                          <img
+                            class="mx-width-100"
+                            src="images/mojiclip .png"
+                          />
+                          <h2 class="text-yellow font-weight-500 ml-3">
+                            Mojiclip
+                          </h2>
                         </div>
-                        <div class="col-sm-12 col-md-7 col-lg-7">
-                           <div class="section-right">
-                              <img class="mx-width-250" src="images/section2-phone.gif" />
-                           </div>
-                        </div>
-                     </div>
-
-
-
+                        <p class="text-light-yellow">
+                          Sometimes you see trends and you create a fun solution
+                          for them,Mojiclip was a fun idea from day one. All you
+                          do is join,pick a video,snap your headshot,and watch
+                          video or share it.
+                        </p>
+                      </div>
+                      <div class="section-footer">
+                        <ul class="service-links">
+                          <li class="d-inline">
+                            <a class="text-light-yellow" href="#"
+                              >App Development <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-light-yellow" href="#"
+                              >Branding <span>|</span></a
+                            >
+                          </li>
+                          <li class="d-inline">
+                            <a class="text-light-yellow" href="#">
+                              Design & Ux
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                  <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="section-right">
+                      <img
+                        class="mx-width-250"
+                        src="images/section2-phone.gif"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-
-
-
-         </div>
+          </div>
+        </div>
       </div>
       <!--logo-->
       <div class="section section-testimonail">
-         <div class="sec-spacing bg-white">
-            <div class="sec__clip">
-               <div class="section-tech">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-5 col-md-12 col-sm-12">
-
-                           <div class="item-content testmonial-content" data-slide="1" style="display:block;">
-                              <div class="section-left">
-                                 <div class="section-header ">
-                                    <div class="small-heading m-btm-30">
-                                       <span class="small" style="font-size:20px">LOGOS</span>
-                                    </div>
-                                    <h1 class="">
-                                     Livestock Loader
-                                    </h1>
-                                 </div>
-                                 <div class="section-body">
-                                 The main purpose of this logo was to keep it simple yet provide a message that relates to the industry and the application itself, a bull and a highway.
-                                 </div>
-                                
-                              </div>
-
-
-
-                           </div>
-                           <div class="item-content" data-slide="2">
-                                 <div class="section-left">
-                                       <div class="section-header">
-                                          <div class="small-heading m-btm-30">
-                                             <span class="small">LOGOS</span>
-                                          </div>
-                                          <h1 class="">
-                                           Feder
-                                          </h1>
-                                       </div>
-                                       <div class="section-body">
-                                          Feder is a fun tactive clothing brande for teens and young adults. The idea was to create an image like icon similar to Nike.
-                                       </div>
-                                      
-                                    </div>
-
-                           </div>
-                           <div class="item-content" data-slide="3">
-                                 <div class="section-left">
-                                       <div class="section-header">
-                                          <div class="small-heading m-btm-30">
-                                             <span class="small">LOGOS</span>
-                                          </div>
-                                          <h1 class="">
-                                           Aawii 
-                                          </h1>
-                                       </div>
-                                       <div class="section-body">
-                                       Aawii logo was created communicate fun, social (last two letters facing each other, representing people), and add diversity. It's a social craigslist style application where people can trade the way they want. 
-                                       </div>
-                                      
-                                    </div>
-                           </div>
-                           <div class="item-content" data-slide="4">
-                                 <div class="section-left">
-                                       <div class="section-header">
-                                          <div class="small-heading m-btm-30">
-                                             <span class="small">LOGOS</span>
-                                          </div>
-                                          <h1 class="">
-                                           Outdoor Sweeps
-                                          </h1>
-                                       </div>
-                                       <div class="section-body">
-                                       This logo was created for the hunters. A website where you can win outdoor items and hunts! 
-                                       </div>
-                                      
-                                    </div>
-                           </div>
-                           <div class="item-content" data-slide="5">
-                                 <div class="section-left">
-                                       <div class="section-header">
-                                          <div class="small-heading m-btm-30">
-                                             <span class="small">LOGOS</span>
-                                          </div>
-                                          <h1 class="">
-                                           MojiClip
-                                          </h1>
-                                       </div>
-                                       <div class="section-body">
-                                       The logo was created to show fun, funny, and emoji. A fun application where people can put their faces on movie clips and videos.
-                                       </div>
-                                      
-                                    </div>
-                           </div>
-                           <ul class="owl-custom-dots d-flex">
-                                 <li class="owl-circle active">
-                                 <li class="owl-circle ">
-                                 <li class="owl-circle">
-                                 <li class="owl-circle">
-                                 <li class="owl-circle">
-                           </ul>
-                          
+        <div class="sec-spacing bg-white">
+          <div class="sec__clip">
+            <div class="section-tech">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div
+                      class="item-content testmonial-content"
+                      data-slide="1"
+                      style="display:block;"
+                    >
+                      <div class="section-left">
+                        <div class="section-header ">
+                          <div class="small-heading m-btm-30">
+                            <span class="small" style="font-size:20px"
+                              >LOGOS</span
+                            >
+                          </div>
+                          <h1 class="">
+                            Livestock Loader
+                          </h1>
                         </div>
-
-                        <div class="col-lg-7 col-md-12 col-sm-12">
-
-                           <div class="owl-carousel">
-                              <div class="item"><img src="./images/livestock-logo.png" /></div>
-                              <div class="item"><img src="./images/feder.png" /></div>
-                              <div class="item"><img src="./images/aawii.png" /></div>
-                              <div class="item"><img src="./images/logo4.png" /></div>
-                              <div class="item"><img src="./images/logo2.png" /></div>
-                           </div>
-
+                        <div class="section-body">
+                          The main purpose of this logo was to keep it simple
+                          yet provide a message that relates to the industry and
+                          the application itself, a bull and a highway.
                         </div>
-
-                     </div>
+                      </div>
+                    </div>
+                    <div class="item-content" data-slide="2">
+                      <div class="section-left">
+                        <div class="section-header">
+                          <div class="small-heading m-btm-30">
+                            <span class="small">LOGOS</span>
+                          </div>
+                          <h1 class="">
+                            Feder
+                          </h1>
+                        </div>
+                        <div class="section-body">
+                          Feder is a fun tactive clothing brande for teens and
+                          young adults. The idea was to create an image like
+                          icon similar to Nike.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item-content" data-slide="3">
+                      <div class="section-left">
+                        <div class="section-header">
+                          <div class="small-heading m-btm-30">
+                            <span class="small">LOGOS</span>
+                          </div>
+                          <h1 class="">
+                            Aawii
+                          </h1>
+                        </div>
+                        <div class="section-body">
+                          Aawii logo was created communicate fun, social (last
+                          two letters facing each other, representing people),
+                          and add diversity. It's a social craigslist style
+                          application where people can trade the way they want.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item-content" data-slide="4">
+                      <div class="section-left">
+                        <div class="section-header">
+                          <div class="small-heading m-btm-30">
+                            <span class="small">LOGOS</span>
+                          </div>
+                          <h1 class="">
+                            Outdoor Sweeps
+                          </h1>
+                        </div>
+                        <div class="section-body">
+                          This logo was created for the hunters. A website where
+                          you can win outdoor items and hunts!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item-content" data-slide="5">
+                      <div class="section-left">
+                        <div class="section-header">
+                          <div class="small-heading m-btm-30">
+                            <span class="small">LOGOS</span>
+                          </div>
+                          <h1 class="">
+                            MojiClip
+                          </h1>
+                        </div>
+                        <div class="section-body">
+                          The logo was created to show fun, funny, and emoji. A
+                          fun application where people can put their faces on
+                          movie clips and videos.
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="owl-custom-dots d-flex">
+                      <li class="owl-circle active"></li>
+                      <li class="owl-circle "></li>
+                      <li class="owl-circle"></li>
+                      <li class="owl-circle"></li>
+                      <li class="owl-circle"></li>
+                    </ul>
                   </div>
 
-               </div>
+                  <div class="col-lg-7 col-md-12 col-sm-12">
+                    <div class="owl-carousel">
+                      <div class="item">
+                        <img src="./images/livestock-logo.png" />
+                      </div>
+                      <div class="item"><img src="./images/feder.png" /></div>
+                      <div class="item"><img src="./images/aawii.png" /></div>
+                      <div class="item"><img src="./images/logo4.png" /></div>
+                      <div class="item"><img src="./images/logo2.png" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
-
+          </div>
+        </div>
       </div>
       <!--section7-->
 
-
       <div class="section  service-section7   ContentContainer">
-         <div class="sec-spacing bg-light">
-            <div class="sec__clip">
-               <div class="section-tech">
-                  <div class="container">
-                     <div class="row d-flex align-items-center">
-                        <div class="col-sm-12 col-md-12 col-lg-3">
-                           <div class="section-left">
-                              <div class="section-header">
-                                 <h3 class="text-dark font-weight-500">The target is to make sure your website is your
-                                    best employee bringing you profit also given the customers what they want.
-                                 </h3>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-9">
-                           <div class="section-right">
-                              <img class="computer-img" src="images/computer.png" />
-                           </div>
-                        </div>
-                     </div>
+        <div class="sec-spacing bg-light">
+          <div class="sec__clip">
+            <div class="section-tech">
+              <div class="container">
+                <div class="row d-flex align-items-center">
+                  <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="section-left">
+                      <div class="section-header">
+                        <h3 class="text-dark font-weight-500">
+                          The target is to make sure your website is your best
+                          employee bringing you profit also given the customers
+                          what they want.
+                        </h3>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                  <div class="col-sm-12 col-md-12 col-lg-9">
+                    <div class="section-right">
+                      <img class="computer-img" src="images/computer.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
 
-      
       <!--section8-->
 
-
       <div class=" service-section8    ContentContainer">
-         <div class=" bg-black">
-            <div class="">
-               <div class="section-tech">
-                  <div class="container-fluid">
-                     <div class="row align-items-center">
-                        <div class="col-lg-6 ">
-                           <div class="section-header">
-                              <div class="branding-sec-left">
-                                 <h2 class="text-white font-weight-500 m-btm-50">Product Development & Branding</h2>
-                                 <p class="text-white">Have a great Product idea? Products can be anything so share your
-                                    idea and get a professional to help you get your product to market! From Prototypes to actual product, we can help.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6 p-0 ">
-                           <img class="mx-width" src="images/energy-drink.png" />
-                        </div>
-                     </div>
+        <div class=" bg-black">
+          <div class="">
+            <div class="section-tech">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                  <div class="col-lg-6 ">
+                    <div class="section-header">
+                      <div class="branding-sec-left">
+                        <h2 class="text-white font-weight-500 m-btm-50">
+                          Product Development & Branding
+                        </h2>
+                        <p class="text-white">
+                          Have a great Product idea? Products can be anything so
+                          share your idea and get a professional to help you get
+                          your product to market! From Prototypes to actual
+                          product, we can help.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                  <div class="col-lg-6 p-0 ">
+                    <img class="mx-width" src="images/energy-drink.png" />
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
       <!--section10-->
 
       <div class="section  service-section9    ContentContainer">
-         <div class="sec-spacing bg-white">
-            <div class="sec__clip">
-               <div class="section-tech">
-                  <div class="container">
-                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-sm-12 col-md-8 col-lg-8">
-                           <div class="section-left">
-                              <div class="section-header text-center ">
-                                 <img class="m-btm-50 mx-width-100" src="images/green-butterfly.png" />
-                                 <h1>Own your industry, let’s TechModify your business today</h1>
-                              </div>
-                              <div class="custom-btn d-flex align-items-center justify-content-center">
-                                 <button class="btn btn-primary btn-block mx-width-200  rounded-0" type="submit">Lets
-                                    Talk</button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+        <div class="sec-spacing bg-white">
+          <div class="sec__clip">
+            <div class="section-tech">
+              <div class="container">
+                <div
+                  class="row d-flex align-items-center justify-content-center"
+                >
+                  <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="section-left">
+                      <div class="section-header text-center ">
+                        <img
+                          class="m-btm-50 mx-width-100"
+                          src="images/green-butterfly.png"
+                        />
+                        <h1>
+                          Own your industry, let’s TechModify your business
+                          today
+                        </h1>
+                      </div>
+                      <div
+                        class="custom-btn d-flex align-items-center justify-content-center"
+                      >
+                        <button
+                          class="btn btn-primary btn-block mx-width-200  rounded-0"
+                          type="submit"
+                        >
+                          Lets Talk
+                        </button>
+                      </div>
+                    </div>
                   </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </main>
-   <footer class=" bg-light-grey">
-      <div class="container-fluid ">
-          <div class="footer-content">
-              <div class="row">
-                  <div class="col-lg-8 col-sm-8 footer-left-content">
-                      <div class="footer-img">
-                          <img src="images/alvin-logo-web.png" /></div>
-                  </div>
-                  <div class="col-lg-4 col-sm-4 footer-right-content">
-                      <span>©copyright 2019</span>
-                  </div>
+                </div>
               </div>
+            </div>
           </div>
+        </div>
       </div>
-  </footer>
+    </main>
 
-   <script type="text/javascript">
+    <script type="text/javascript">
       $(document).ready(function() {
-var current = 1;
-    var owl = $(".owl-carousel");
-  owl.owlCarousel({
-    loop: true,
-    margin: 5,
-    slideBy: 1,
-    dots: false
- });
-  owl.on('changed.owl.carousel', function(event) {
-      current = (event.item.index + 1) - event.relatedTarget._clones.length / 2;
-      var allItems = event.item.count;
-      if (current > allItems || current == 0) {
-        current = 1;
-      }
-    if(current > 0) {
-        $('.item-content').hide();
-        $('.item-content[data-slide= "'+current+'"]').fadeIn();
-    }
-    $(".owl-custom-dots .owl-circle").removeClass("active");
-    $(".owl-custom-dots .owl-circle:eq( "+(current-1)+" )").addClass("active");
-  });
-  
-  
-$('.owl-custom-dots .owl-circle').click(function () {
-$(".owl-custom-dots .owl-circle").removeClass("active");
- $(this).addClass('active');
- var clickedIndex = $(this).index() + 1;
- if(current < clickedIndex) {
-  var stepTomove = clickedIndex-current;
-    console.log(stepTomove);
-    for(i=0;i<stepTomove;i++) {
-    owl.trigger('next.owl.carousel', 600);
-    }
- } else {
-    var stepTomove = current-clickedIndex;
-    for(i=0;i<stepTomove;i++) {
-        owl.trigger('prev.owl.carousel', 600);
-    }
- }
-});
-});  
-   </script>
+        var current = 1;
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          loop: true,
+          margin: 5,
+          slideBy: 1,
+          dots: false
+        });
+        owl.on("changed.owl.carousel", function(event) {
+          current =
+            event.item.index + 1 - event.relatedTarget._clones.length / 2;
+          var allItems = event.item.count;
+          if (current > allItems || current == 0) {
+            current = 1;
+          }
+          if (current > 0) {
+            $(".item-content").hide();
+            $('.item-content[data-slide= "' + current + '"]').fadeIn();
+          }
+          $(".owl-custom-dots .owl-circle").removeClass("active");
+          $(
+            ".owl-custom-dots .owl-circle:eq( " + (current - 1) + " )"
+          ).addClass("active");
+        });
 
-
-</body>
-
+        $(".owl-custom-dots .owl-circle").click(function() {
+          $(".owl-custom-dots .owl-circle").removeClass("active");
+          $(this).addClass("active");
+          var clickedIndex = $(this).index() + 1;
+          if (current < clickedIndex) {
+            var stepTomove = clickedIndex - current;
+            console.log(stepTomove);
+            for (i = 0; i < stepTomove; i++) {
+              owl.trigger("next.owl.carousel", 600);
+            }
+          } else {
+            var stepTomove = current - clickedIndex;
+            for (i = 0; i < stepTomove; i++) {
+              owl.trigger("prev.owl.carousel", 600);
+            }
+          }
+        });
+      });
+    </script>
+    <footer class="footer  bg-white">
+      <div class="container-fluid ">
+        <div class="footer-content">
+          <div class="row">
+            <div class="col-lg-8 col-sm-8 footer-left-content">
+              <div class="footer-img">
+                <img src="images/alvin-logo-web.png" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 footer-right-content">
+              <span>©copyright 2019</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
