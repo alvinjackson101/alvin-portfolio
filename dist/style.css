@@ -320,6 +320,10 @@ h3 {
   position: relative; */
 }
 
+.bg-livestockloader{
+  background-image: url("/images/.png");
+}
+
 .bg-blue {
   background: #1873e8;
 }
@@ -345,119 +349,7 @@ header {
     padding: 0;
   }
 }
-/*Old NAVBAR
-header .navbar-brand {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 0;
-}
 
-@media screen and (min-width: 320px) and (max-width: 567px) {
-  header .navbar-brand img {
-    max-width: 110px;
-  }
-}
-
-header .navbar-brand span {
-  font-size: 24px;
-  color: #8d8d8d;
-}
-
-@media screen and (min-width: 320px) and (max-width: 567px) {
-  header .navbar-brand span {
-    font-size: 18px;
-  }
-}
-
-header .navbar-nav {
-  padding: 0 !important;
-  height: 70px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-@media screen and (min-width: 320px) and (max-width: 991px) {
-  header .navbar-nav {
-    height: 100%;
-    padding-bottom: 30px;
-  }
-}
-
-header .navbar {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  background: #fff;
-}
-
-@media screen and (min-width: 320px) and (max-width: 991px) {
-  header .navbar {
-    padding: 20px !important;
-  }
-}
-
-header .current-item {
-  border-bottom: 3px solid #1873e8;
-}
-
-header .navbar-nav .nav-item {
-  margin-left: 36px;
-}
-
-header .navbar-nav .nav-item .nav-link {
-  font-size: 18px;
-  letter-spacing: 0.25px;
-  padding: 10px 0 9px !important;
-  width: auto;
-  color: #5f6368 !important;
-  height: 70px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  font-weight: 400 !important;
-}
-
-@media screen and (min-width: 320px) and (max-width: 991px) {
-  header .navbar-nav .nav-item {
-    margin-left: 0;
-  }
-}
-
-header .navbar-nav .nav-item:first-child {
-  margin-left: 48px;
-}
-
-@media screen and (min-width: 320px) and (max-width: 991px) {
-  header .navbar-nav .nav-item:first-child {
-    margin-left: 0;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 991px) {
-  .header-btn {
-    margin-top: 30px;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-}
-
-.custom-toggler:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(76,145,90, 2)' 	stroke-width='2'  stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-}
-OLD NAVEBAR ENDING*/
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .contact-page {
     padding-top: 50px !important;
