@@ -291,6 +291,11 @@ h3 {
   color: #3c4043;
 }
 
+.project-icons{
+  max-width: 15%;
+  height: auto;
+}
+
 .bg-light-grey {
   background-color: #fbfbfb;
 }
