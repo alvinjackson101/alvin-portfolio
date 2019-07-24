@@ -294,6 +294,7 @@ h3 {
 .project-icons{
   max-width: 15%;
   height: auto;
+  
 }
 
 .bg-light-grey {
@@ -325,8 +326,10 @@ h3 {
   position: relative; */
 }
 
+
 .bg-livestockloader{
-  background-image: url("/images/.png");
+  background-image: url("/images/livestock-bg.png");
+  background-color: #fbfbfb;
 }
 
 .bg-blue {
@@ -800,7 +803,7 @@ header {
   background-repeat: no-repeat;
   min-height: 156px;
   transform: rotate(30deg);
-  background-position: 100%, bottom;
+  background-position: 100%, center;
   max-width: 100px;
   margin: 0 auto;
   bottom: 0;
@@ -824,11 +827,13 @@ header {
   background-attachment: fixed;
 }
 
-.service-section2 {
-  background-image: url("/images/livestock-bg.png");
-}
+/*.service-section2 {
+ background-image: url("/images/livestock-bg.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;  
+}*/
 
-.service-section2,
 .service-section4 {
   background-size: cover;
   background-size: 85%;
