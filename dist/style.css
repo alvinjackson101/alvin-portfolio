@@ -329,7 +329,12 @@ h3 {
 
 .bg-livestockloader{
   background-image: url("/images/livestock-bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   background-color: #fbfbfb;
+  max-width: 50%;
+  height: auto;
 }
 
 .bg-blue {
