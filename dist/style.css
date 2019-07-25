@@ -327,13 +327,12 @@ h3 {
 }
 
 
-.bg-livestockloader{
+/*.bg-livestockloader{
   background-image: url("/images/livestock-bg.png");
   background-repeat: no-repeat;
-  width: 25%;
-  height: auto;
+  width: 100%;
   background-position: 75% 25%;
-}
+}*/
 
 .bg-blue {
   background: #1873e8;
