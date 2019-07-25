@@ -330,9 +330,9 @@ h3 {
 .bg-livestockloader{
   background-image: url("/images/livestock-bg.png");
   background-repeat: no-repeat;
-  width: 100%;
-  left: 25px;
-  top: 85px;
+  width: 25%;
+  height: auto;
+  background-position: 75% 25%;
 }
 
 .bg-blue {
