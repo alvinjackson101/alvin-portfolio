@@ -837,6 +837,16 @@ header {
   background-attachment: fixed;
 }
 
+.livestockloader-bg {
+  background-image: url("/images/livestock101-bg.png");
+  background-size: cover;
+  background-size: 80%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+}
+
 .service-section4 {
   background-size: cover;
   background-size: 85%;
