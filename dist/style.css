@@ -291,10 +291,9 @@ h3 {
   color: #3c4043;
 }
 
-.project-icons{
+.project-icons {
   max-width: 15%;
   height: auto;
-  
 }
 
 .bg-light-grey {
@@ -325,7 +324,6 @@ h3 {
   background-size: cover;
   position: relative; */
 }
-
 
 /*.bg-livestockloader{
   background-image: url("/images/livestock-bg.png");
@@ -829,12 +827,15 @@ header {
   background-attachment: fixed;
 }
 
-/*.service-section2 {
- background-image: url("/images/livestock-bg.png");
-  background-repeat: repeat;
+.process-section-bg {
+  background-image: url("/images/process-bg.png");
+  background-size: cover;
+  background-size: 80%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
   background-attachment: fixed;
-  background-position: center;  
-}*/
+}
 
 .service-section4 {
   background-size: cover;
