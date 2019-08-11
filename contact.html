@@ -43,13 +43,12 @@
 
                     <div class="middle">
 
-                        <form action="#" class="contact-form">
+                        <form action="POST" data-netlify="true" class="contact-form">
 
                             <div class="container bg-light-grey contact-form-image">
 
                                 <div class="contact-form-content">
 
-                                    
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="custom-form-group form-group form-group-sm">
@@ -82,6 +81,9 @@
                                                     class=" form-control message-box">How can I help you.</textarea>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="field">
+                                        <div data-netlify-recaptcha="true"></div>
                                     </div>
 
                                     <button class="btn btn-primary btn-block rounded-0" type="submit">Let's Work Together</button>
