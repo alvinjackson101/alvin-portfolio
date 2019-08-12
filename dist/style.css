@@ -379,25 +379,6 @@ header {
   font-weight: 300;
 }
 
-.contact-form-image {
-  width: 100%;
-  max-width: 740px;
-  margin: 0 auto;
-  padding: 40px !important;
-}
-
-@media screen and (min-width: 320px) and (max-width: 567px) {
-  .contact-form-image {
-    padding: 20px !important;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 567px) {
-  .contact-form-image .image-butterfly img {
-    margin: 0 auto 20px;
-  }
-}
-
 .custom-form-group.form-group {
   margin-bottom: 0;
 }
