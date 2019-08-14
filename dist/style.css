@@ -551,7 +551,8 @@ header {
 }
 
 .footer-left-content span {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: lighter;
   color: #8d8d8d;
 }
 
@@ -578,7 +579,8 @@ header {
 }
 
 .footer-right-content span {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: lighter;
   color: #8d8d8d;
 }
 
