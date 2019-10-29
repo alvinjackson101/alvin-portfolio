@@ -325,12 +325,15 @@ h3 {
   position: relative; */
 }
 
-/*.bg-livestockloader{
-  background-image: url("/images/livestock-bg.png");
-  background-repeat: no-repeat;
+.bg-livestockloader {
+  background-image: url("/images/Road-PNG-File.png");
+  /*background:linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url("/images/pngguru.com-id-bpgua.png");*/
   width: 100%;
-  background-position: 75% 25%;
-}*/
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 .bg-blue {
   background: #1873e8;
