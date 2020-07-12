@@ -268,8 +268,8 @@ h3 {
   }
 }
 
-.mx-width-550 {
-  max-width: 550px !important;
+.mx-width-500 {
+  max-width: 500px !important;
 }
 @media screen and (min-width: 320px) and (max-width: 550px) {
   .mx-width-550 {
