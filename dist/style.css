@@ -276,6 +276,9 @@ h3 {
     max-width: 400px !important;
   }
 }
+.mx-width-900 {
+  max-width: 900px !important;
+}
 
 .mx-width-400 {
   max-width: 450px !important;
@@ -314,7 +317,7 @@ h3 {
 }
 
 .text-dark {
-  color: #3c4043;
+  color: #000;
 }
 
 .text-white {
@@ -697,7 +700,7 @@ header {
 }
 
 .section .section-left .section-header p {
-  color: #8d8d8d;
+  color: #000000;
   margin-bottom: 0;
   font-weight: 300;
 }
