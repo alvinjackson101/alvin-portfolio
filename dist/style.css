@@ -288,6 +288,10 @@ h3 {
 .mx-width-575 {
   max-width: 575px !important;
 }
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .mx-width-575 {
+    max-width: 400px !important;
+  }
 
 .mx-width-200 {
   max-width: 200px !important;
