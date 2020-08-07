@@ -358,6 +358,15 @@ h3 {
 .bg-assurant-blue {
   background-color: #0070b9;
 }
+
+.bg-assurant-green {
+  background-color: #00882a;
+}
+
+.bg-assurant-dark-grey {
+  background-color: #1f1f1f;
+}
+
 .bg-light-grey {
   background-color: #fbfbfb;
 }
