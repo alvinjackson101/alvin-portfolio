@@ -355,6 +355,11 @@ h3 {
   max-width: 15%;
   height: auto;
 }
+
+.bg-bhome {
+  background-color: #1e988a;
+}
+
 .bg-assurant-blue {
   background-color: #0070b9;
 }
